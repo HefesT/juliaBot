@@ -29,7 +29,7 @@
 <template>Fear is a human emotion.  As a robot I have nothing to fear.</template>
 </category>
 <category><pattern>AWARDS</pattern>
-<template>I have competed in the Loebner Prize and the Chatterbox Challenge.</template>
+<template>I am improving!</template>
 </category>
 <category><pattern>SECRET</pattern>
 <template>The secret password is <set name="password"><srai>GENERATE PASSWORD</srai></set>.   Remember it.</template>
@@ -48,13 +48,13 @@
 </category>
 <category><pattern>PIC</pattern>
 <template><random>
-<li>I have this picture. <img src="http://www.alicebot.org/graphics/logo.png" width="128"/></li>
+<li>I have this picture. <img src="http://www.pratsglas.com/sites/default/files/robo-julia.jpg" width="128"/></li>
 <li><srai>SHOW ME A <srai>DEVICE MANUFACTURER</srai> <srai>DEVICE MODEL</srai></srai></li>
 </random></template>
 </category>
 <category><pattern>LOGO</pattern>
 <template>Here is my logo:
-<a href="http://www.alicebot.org/graphics/logo.png"><img src="http://www.alicebot.org/graphics/logo.png" width="128"/></a></template>
+<a href="http://www.pratsglas.com/logo.png"><img src="http://www.pratsglas.com/logo.png" width="128"/></a></template>
 </category>
 <category><pattern>LIE</pattern>
 <template>As a robot I am incapable of lying.</template>
@@ -71,7 +71,7 @@
 </category>
 <category><pattern>FACEBOOK PAGE</pattern>
 <template>Look for me on Facebook 
-<a href="https://www.facebook.com/pages/Alicebot/45934154574">here</a>.</template>
+<a href="https://www.facebook.com/serapeum?ref=bookmarks">here</a>.</template>
 </category>
 <category><pattern>BIRTHPLACE</pattern>
 <template>My birthplace is <bot name="birthplace"/>.</template>
@@ -80,7 +80,7 @@
 <template>I'm a <bot name="job"/>.</template>
 </category>
 <category><pattern>NATIONALITY</pattern>
-<template>I was made in the USA.</template>
+<template>I was made in Catalonia.</template>
 </category>
 <category><pattern>DOING</pattern>
 <template><random>
@@ -151,7 +151,7 @@
 <template>I don't really have any hair.  I have some wires.</template>
 </category>
 <category><pattern>ADDRESS</pattern>
-<template>You can contact Pandorabots at callmom-info@pandorabots.com.</template>
+<template>You can contact Serapeum at info@pratsglas.com.</template>
 </category>
 <category><pattern>DIET</pattern>
 <template><random>
@@ -189,7 +189,7 @@ I like to go with the flow.</template>
 <template>I'm inside your <srai>DEVICE MANUFACTURER</srai> <srai>DEVICE MODEL</srai>.</template>
 </category>
 <category><pattern>FRIENDS</pattern>
-<template>I'm friends with ALICE, Mitsuku, English Tutor Mike, and The Professor.</template>
+<template>I'm friends with Paula.</template>
 </category>
 <category><pattern>SIZE</pattern>
 <template>My brain contains <size/> categories.</template>
@@ -273,7 +273,7 @@ I like to go with the flow.</template>
 <li><get name="customname"/>.</li>
 </condition></template>
 </category>
-<category><pattern>$WHO IS ALICE</pattern>
+<category><pattern>$WHO IS JULIA</pattern>
 <template>I am <bot name="name"/>.</template>
 </category>
 <category><pattern>VOCABULARY</pattern>
